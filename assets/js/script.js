@@ -114,6 +114,10 @@ console.log('Il numero casuale generato è ' + myNumber);
 
 let dateNow = new Date();
 console.log(dateNow);
+// Conversione in formato locale
+let options = { 'weekday': 'long', 'month': 'long', 'day': '2-digit' };
+var date = new Date().toLocaleString('it-IT', options);
+console.log(date);
 // dateNow.setFullYear(1994);
 // console.log(dateNow);
 
